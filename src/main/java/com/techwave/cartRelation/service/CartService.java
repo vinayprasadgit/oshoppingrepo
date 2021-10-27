@@ -42,4 +42,9 @@ public class CartService {
             throw new EntityNotFoundException(Cart.class,"id",id.toString());
 
         }
-}}
+}
+
+    public Cart getCartByName(Integer id) {
+        return cartRepository.findById(id).get();
+    }
+}

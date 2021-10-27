@@ -33,6 +33,12 @@ public class CartController
         return cartService.getCartById(id);
 
     }
+    @GetMapping("/{Id}")
+    public Cart getCartByName(@PathVariable("Id") Integer id)
+    {
+        return cartService.getCartByName(id);
+
+    }
     @PostMapping("/")
     public Cart addcart(@RequestBody Cart cart)
     {
