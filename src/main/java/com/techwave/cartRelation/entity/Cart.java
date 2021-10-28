@@ -16,6 +16,7 @@ import java.util.List;
 @AllArgsConstructor
 @Entity
 @Table(name = "cart")
+//Cart Entity
 public class Cart
 {
     @Id
