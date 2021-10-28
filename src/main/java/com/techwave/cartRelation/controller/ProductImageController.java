@@ -10,7 +10,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/productimage")
 public class ProductImageController {
-
+//asd,jada;aks;ldk
     @Autowired
     private ProductImageService productImageService;
 
