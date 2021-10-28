@@ -37,5 +37,10 @@ public class ProductController {
     {
         return productService.deleteProduct(id);
     }
+    @GetMapping("/{Id}")
+    public Product getProductByName(@PathVariable("Id") Integer id)
+    {
+        return productService.getProductByName(id);
+    }
 
 }
