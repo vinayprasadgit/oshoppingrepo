@@ -17,6 +17,7 @@ import java.util.List;
 @Entity
 @Table(name = "cart")
 //Cart Entity
+//before Revert cart
 public class Cart
 {
     @Id

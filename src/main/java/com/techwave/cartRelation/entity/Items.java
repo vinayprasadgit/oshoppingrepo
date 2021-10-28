@@ -17,6 +17,7 @@ import java.util.List;
 @Entity
 @Table(name = "items")
 //Items Entity
+//before revert item
 public class Items
 {
     @Id
