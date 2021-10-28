@@ -54,4 +54,8 @@ public class ProductService {
         }
 
     }
+
+    public Product getProductByName(Integer id) {
+        return productRepository.findById(id).get();
+    }
 }
